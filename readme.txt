@@ -66,19 +66,19 @@ get_wp_user_avatar() will also fall back to get_avatar() if no WP User Avatar im
 
 get_wp_user_avatar() will add the CSS classes "wp-user-avatar" and "wp-user-avatar-{size}" to your image.
 
-`<?php echo get_avatar(get_the_author_meta('ID'), 96); ?>
+`<?php echo get_avatar(get_the_author_meta('ID'), 96); ?>`
 
 Outputs:
 
-<img src="{imageURL}" width="96" height="96" class="wp-user-avatar wp-user-avatar-96 avatar avatar-96 photo" />
+`<img src="{imageURL}" width="96" height="96" class="wp-user-avatar wp-user-avatar-96 avatar avatar-96 photo" />`
 
 **Note:** If you use the values "original", "large", "medium", and "thumbnail", no width or height will be added to the image. This will give you more flexibility to resize the image with CSS.
 
-`<?php echo get_avatar(get_the_author_meta('ID'), 'medium'); ?>
+`<?php echo get_avatar(get_the_author_meta('ID'), 'medium'); ?>`
 
 Outputs:
 
-<img src="{imageURL}" class="wp-user-avatar wp-user-avatar-medium avatar avatar-medium photo" />
+`<img src="{imageURL}" class="wp-user-avatar wp-user-avatar-medium avatar avatar-medium photo" />`
 
 == Screenshots ==
 
