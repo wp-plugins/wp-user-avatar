@@ -5,7 +5,7 @@ Donate link: http://siboliban.org/donate
 Tags: author image, author photo, author avatar, avatar, profile avatar, profile image, profile photo, user avatar, user image, user photo
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,7 +34,7 @@ This plugin uses the new Media Uploader introduced in WordPress 3.5, but is also
 
 In your theme, replace get_avatar with get_wp_user_avatar().
 
-**Examples:**
+** Examples **
 
 Within The Loop, you may be using:
 
@@ -62,12 +62,34 @@ If you leave the options blank, WP User Avatar will detect whether you're inside
 
 get_wp_user_avatar() will also fall back to get_avatar() if no WP User Avatar image is set. For this to work, "Show Avatars" must be checked in your Discussion settings.
 
+** CSS **
+
+get_wp_user_avatar() will add the CSS classes "wp-user-avatar" and "wp-user-avatar-{size}" to your image.
+
+`<?php echo get_avatar(get_the_author_meta('ID'), 96); ?>
+
+Outputs:
+
+<img src="{imageURL}" width="96" height="96" class="wp-user-avatar wp-user-avatar-96 avatar avatar-96 photo" />
+
+**Note:** If you use the values "original", "large", "medium", and "thumbnail", no width or height will be added to the image. This will give you more flexibility to resize the image with CSS.
+
+`<?php echo get_avatar(get_the_author_meta('ID'), 'medium'); ?>
+
+Outputs:
+
+<img src="{imageURL}" class="wp-user-avatar wp-user-avatar-medium avatar avatar-medium photo" />
+
 == Screenshots ==
 
 1. See thumbnails of WP User Avatar in the Users section.
 2. WP User Avatar adds a field to your profile in edit mode.
 
 == Changelog ==
+
+= 1.0.2 =
+* Update: FAQ
+* Remove: CSS that hides "Insert into Post".
 
 = 1.0.1 =
 * Add: CSS classes to image output.

@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WP User Avatar
- * @version 1.0.1
+ * @version 1.0.2
  */
 /*
 Plugin Name: WP User Avatar
