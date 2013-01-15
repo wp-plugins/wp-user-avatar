@@ -216,7 +216,7 @@ function get_wp_user_avatar($id_or_email = '', $size = '96', $default = '', $alt
     $get_size = is_numeric($size) ? array($size,$size) : $size;
     $wp_user_avatar_image = wp_get_attachment_image_src($wp_user_avatar_meta, $get_size);
     $dimensions = is_numeric($size) ? ' width="'.$wp_user_avatar_image[1].'" height="'.$wp_user_avatar_image[2].'"' : '';
-    $wp_user_avatar = '<img src="'.$wp_user_avatar_image[0].'"'.$dimensions.' alt="'.$alt.'" class="wp-user-avatar wp-user-avatar-'.$size.'avatar avatar-'.$size.' photo" />';
+    $wp_user_avatar = '<img src="'.$wp_user_avatar_image[0].'"'.$dimensions.' alt="'.$alt.'" class="wp-user-avatar wp-user-avatar-'.$size.' avatar avatar-'.$size.' photo" />';
   } else {
     $wp_user_avatar = get_avatar($id_or_email, $size, $default, $alt);
   }
