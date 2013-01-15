@@ -71,7 +71,7 @@ The function <code>get_wp_user_avatar()</code> will also fall back to <code>get_
 
 = [avatar] shortcode =
 
-You can use the shortcode <code>[avatar]</code> in your posts. It will automatically detect the author of the post, or you can specify an author by username. You can specify a size or alignment, but they are optional.
+You can use the shortcode <code>[avatar]</code> in your posts. It will automatically detect the author of the post, or you can specify an author by username. You can specify a size and alignment, but they are optional.
 
 `[avatar user="admin" size="medium" align="left"]`
 
@@ -97,7 +97,7 @@ Returns true if the user has a WP User Avatar image. You can specify the user ID
 
 = How do I use WP User Avatar? =
 
-After activating WP User Avatar, you have a choice of manually replacing <code>get_avatar()</code> with <code>get_wp_user_avatar()</code> in your theme, or leaving <code>get_avatar()</code> as-is. Here are the differences:
+You have a choice of manually replacing <code>get_avatar()</code> with <code>get_wp_user_avatar()</code> in your theme, or leaving <code>get_avatar()</code> as-is. Here are the differences:
 
 = get_wp_user_avatar() =
 
