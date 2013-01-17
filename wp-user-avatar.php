@@ -1,13 +1,13 @@
 <?php
 /**
  * @package WP User Avatar
- * @version 1.1.2
+ * @version 1.1.3
  */
 /*
 Plugin Name: WP User Avatar
 Plugin URI: http://wordpress.org/extend/plugins/wp-user-avatar/
 Description: Use any image in your WordPress Media Libary as a custom user avatar.
-Version: 1.1.2
+Version: 1.1.3
 Author: Bangbay Siboliban
 Author URI: http://siboliban.org/
 */
@@ -228,7 +228,7 @@ function get_wp_user_avatar($id_or_email = '', $size = '96', $align = ''){
     $id_or_email = $user->ID;
     $alt = $user->display_name;
   }
-  $wp_user_avatar_meta = get_the_author_meta('wp_user_avatar', $id_or_email);
+  $wp_user_avatar_meta = !empty($id_or_email) ? get_the_author_meta('wp_user_avatar', $id_or_email) : '';
   $alignclass = !empty($align) ? ' align'.$align : '';
   if(!empty($wp_user_avatar_meta)){
     $get_size = is_numeric($size) ? array($size,$size) : $size;
@@ -279,7 +279,7 @@ function get_wp_user_avatar_alt($avatar, $id_or_email, $size = '', $default = ''
     $id_or_email = $user->ID;
     $alt = $user->display_name;
   }
-  $wp_user_avatar_meta = get_the_author_meta('wp_user_avatar', $id_or_email);
+  $wp_user_avatar_meta = !empty($id_or_email) ? get_the_author_meta('wp_user_avatar', $id_or_email) : '';
   if(!empty($wp_user_avatar_meta) && $pagenow != 'options-discussion.php'){
     $wp_user_avatar_image = wp_get_attachment_image_src($wp_user_avatar_meta, array($size,$size));
     $dimensions = is_numeric($size) ? ' width="'.$wp_user_avatar_image[1].'" height="'.$wp_user_avatar_image[2].'"' : '';
