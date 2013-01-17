@@ -286,7 +286,6 @@ function get_wp_user_avatar_alt($avatar, $id_or_email, $size = '', $default = ''
         $user = get_user_by('id', $user_id);
       }
     }
-    }
     $id_or_email = $user->ID;
     $alt = $user->display_name;
   }
