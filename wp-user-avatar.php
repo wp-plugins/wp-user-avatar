@@ -1,13 +1,13 @@
 <?php
 /**
  * @package WP User Avatar
- * @version 1.1.4
+ * @version 1.1.5
  */
 /*
 Plugin Name: WP User Avatar
 Plugin URI: http://wordpress.org/extend/plugins/wp-user-avatar/
 Description: Use any image in your WordPress Media Libary as a custom user avatar.
-Version: 1.1.4
+Version: 1.1.5
 Author: Bangbay Siboliban
 Author URI: http://siboliban.org/
 */
@@ -285,7 +285,6 @@ function get_wp_user_avatar_alt($avatar, $id_or_email, $size = '', $default = ''
         $user_id = get_the_author_meta('ID');
         $user = get_user_by('id', $user_id);
       }
-    }
     }
     $id_or_email = $user->ID;
     $alt = $user->display_name;
