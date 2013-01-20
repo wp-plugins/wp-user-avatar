@@ -1,13 +1,13 @@
 <?php
 /**
  * @package WP User Avatar
- * @version 1.1.5
+ * @version 1.1.5a
  */
 /*
 Plugin Name: WP User Avatar
 Plugin URI: http://wordpress.org/extend/plugins/wp-user-avatar/
 Description: Use any image in your WordPress Media Libary as a custom user avatar.
-Version: 1.1.5
+Version: 1.1.5a
 Author: Bangbay Siboliban
 Author URI: http://siboliban.org/
 */
@@ -157,7 +157,7 @@ if(!class_exists('wp_user_avatar')){
     // Add button to attach image
     function add_wp_user_avatar_attachment_field_to_edit($fields, $post){
       $image = wp_get_attachment_image_src($post->ID, "medium");
-      $button .= '<button type="button" class="button" id="set-wp-user-avatar-image" onclick="setWPUserAvatar(\''.$post->ID.'\', \''.$image[0].'\')">Set WP User Avatar</button>';
+      $button = '<button type="button" class="button" id="set-wp-user-avatar-image" onclick="setWPUserAvatar(\''.$post->ID.'\', \''.$image[0].'\')">Set WP User Avatar</button>';
       $fields['wp-user-avatar'] = array(
         'label' => __('WP User Avatar'),
         'input' => 'html',
