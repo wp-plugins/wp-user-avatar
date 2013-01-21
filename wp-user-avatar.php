@@ -48,6 +48,7 @@ if(!class_exists('wp_user_avatar')){
 
     // Add to user profile edit
     function action_show_user_profile($user){
+      $wp_user_avatar = get_user_meta($user->ID, 'wp_user_avatar', true);
       $hide = !has_wp_user_avatar($user->ID) ? ' style="display:none;"' : '';
     ?>
     <h3><?php _e('WP User Avatar') ?></h3>
@@ -56,7 +57,7 @@ if(!class_exists('wp_user_avatar')){
         <tr>
           <th><label for="wp_user_avatar"><?php _e('WP User Avatar'); ?></label></th>
           <td>
-            <input type="hidden" name="wp-user-avatar" id="wp-user-avatar" value="<?php echo $wp_user_avatar ?>" />
+            <input type="hidden" name="wp-user-avatar" id="wp-user-avatar" value="<?php echo $wp_user_avatar; ?>" />
             <p><button type="button" class="button" id="add-wp-user-avatar"><?php _e('Edit WP User Avatar'); ?></button></p>
             <div id="wp-user-avatar-preview">
               <p>
@@ -151,7 +152,7 @@ if(!class_exists('wp_user_avatar')){
     }
     // Update user meta
     function action_process_option_update($user_id){
-      update_usermeta($user_id, 'wp_user_avatar', (isset($_POST['wp-user-avatar']) ? $_POST['wp-user-avatar'] : ''));
+      update_user_meta($user_id, 'wp_user_avatar', (isset($_POST['wp-user-avatar']) ? $_POST['wp-user-avatar'] : ''));
     }
 
     // Add button to attach image
