@@ -5,7 +5,7 @@ Donate link: http://siboliban.org/donate
 Tags: author image, author photo, author avatar, avatar, profile avatar, profile image, profile photo, user avatar, user image, user photo
 Requires at least: 3.0
 Tested up to: 3.5
-Stable tag: 1.1.6
+Stable tag: 1.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -160,6 +160,9 @@ Outputs:
 
 == Changelog ==
 
+= 1.1.7 =
+* Bug Fix: Change update_usermeta to update_user_meta
+
 = 1.1.6 =
 * Bug Fix: Image not showing in user profile edit
 
@@ -170,7 +173,7 @@ Outputs:
 * Bug Fix: Remove stray curly bracket
 
 = 1.1.4 =
-* Bug Fix: change get_usermeta to get_user_meta
+* Bug Fix: Change get_usermeta to get_user_meta
 * Bug Fix: Non-object warning when retrieving user ID
 
 = 1.1.3 =
