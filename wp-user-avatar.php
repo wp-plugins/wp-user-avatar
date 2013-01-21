@@ -152,7 +152,7 @@ if(!class_exists('wp_user_avatar')){
     }
     // Update user meta
     function action_process_option_update($user_id){
-      update_usermeta($user_id, 'wp_user_avatar', (isset($_POST['wp-user-avatar']) ? $_POST['wp-user-avatar'] : ''));
+      update_user_meta($user_id, 'wp_user_avatar', (isset($_POST['wp-user-avatar']) ? $_POST['wp-user-avatar'] : ''));
     }
 
     // Add button to attach image
