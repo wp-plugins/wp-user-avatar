@@ -166,7 +166,7 @@ Outputs:
 
 1. WP User Avatar lets you upload your own Default Avatar.
 2. WP User Avatar adds a field to your profile in edit mode.
-3. After you've set a WP User Avatar image, you can remove it.
+3. After you've set a WP User Avatar image, you will see the option to remove it.
 
 == Changelog ==
 
