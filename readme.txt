@@ -3,9 +3,9 @@
 Contributors: bangbay
 Donate link: http://siboliban.org/donate
 Tags: author image, author photo, author avatar, avatar, profile avatar, profile image, profile photo, user avatar, user image, user photo
-Requires at least: 3.0
+Requires at least: 3.1
 Tested up to: 3.5.1
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,17 +15,17 @@ Use any image in your WordPress Media Libary as a custom user avatar. Add your o
 
 WordPress currently only allows you to use custom avatars that are uploaded through [gravatar.com](http://gravatar.com/). WP User Avatar enables you to use any photo uploaded into your Media Library as an avatar. This means you use the same uploader and library as your posts. No extra folders or image editing functions are necessary.
 
-To use WP User Avatar, choose a theme that has avatar support. In your theme, manually replace <code>get_avatar</code> with <code>get_wp_user_avatar</code> or leave <code>get_avatar</code> as-is. <code>get_wp_user_avatar</code> has functionality not available in <code>get_avatar</code>. [Read about the differences here](http://wordpress.org/extend/plugins/wp-user-avatar/faq/).
-
 WP User Avatar also lets you:
 
 * Upload your own Default Avatar in your Discussion settings.
 * Show the user's gravatar.com avatar or Default Avatar if the user doesn't have a WP User Avatar image.
 * Use the shortcode <code>[avatar]</code> in your posts. The shortcode will work with any theme, whether it has avatar support or not.
 
+To use WP User Avatar, choose a theme that has avatar support. In your theme, manually replace <code>get_avatar</code> with <code>get_wp_user_avatar</code> or leave <code>get_avatar</code> as-is. <code>get_wp_user_avatar</code> has functionality not available in <code>get_avatar</code>. [Read about the differences here](http://wordpress.org/extend/plugins/wp-user-avatar/faq/).
+
 [Read more about get_avatar in the WordPress Function Reference](http://codex.wordpress.org/Function_Reference/get_avatar).
 
-This plugin uses the Media uploader introduced in WordPress 3.5, but is also backwards-compatible to WordPress 3.0.
+This plugin uses the Media uploader introduced in WordPress 3.5, but is also backwards-compatible to WordPress 3.1.
 
 == Installation ==
 
@@ -171,10 +171,15 @@ Outputs:
 == Screenshots ==
 
 1. WP User Avatar lets you upload your own Default Avatar.
-2. WP User Avatar adds a field to your profile in edit mode.
+2. WP User Avatar adds a field to your edit profile page.
 3. After you've set a WP User Avatar image, you will see the option to remove it.
 
 == Changelog ==
+
+= 1.2.1 =
+* Add: TinyMCE button
+* Update: Clean up redundant code
+* Update: Compatibility only back to WordPress 3.1
 
 = 1.2 =
 * Add: Default Avatar setting
@@ -223,7 +228,10 @@ Outputs:
 
 == Upgrade Notice ==
 
-= 1.2=
+= 1.2.1 =
+* New Feature: Shortcode insertion button for Visual Editor
+
+= 1.2 =
 * New Feature: Default Avatar customization
 
 = 1.1 =
