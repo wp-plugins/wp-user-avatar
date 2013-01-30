@@ -73,7 +73,7 @@ If you leave the options blank, WP User Avatar will detect whether you're inside
 
 `<?php echo get_wp_user_avatar(); ?>`
 
-The function <code>get_wp_user_avatar</code> will also fall back to <code>get_avatar</code> if no WP User Avatar image is set. For this to work, "Show Avatars" must be checked in your Discussion settings. When this setting is enabled, you will see the user's gravatar.com avatar or Default Avatar.
+The function <code>get_wp_user_avatar</code> will also fall back to <code>get_avatar</code> if the user has no WP User Avatar image. For this to work, "Show Avatars" must be checked in your Discussion settings. When this setting is enabled, you will see the user's gravatar.com avatar or Default Avatar.
 
 **Other Available Functions**
 
@@ -152,7 +152,7 @@ Outputs:
 
 `<img src="{imageURL}" width="96" height="96" class="wp-user-avatar wp-user-avatar-96 alignleft" />`
 
-**Note:** "alignleft", "alignright", and aligncenter" are common WordPress CSS classes, but not every theme supports them. Contact the theme author to add those CSS classes.
+**Note:** "alignleft", "alignright", and aligncenter" are common WordPress CSS classes, but not every theme supports them. Contact the theme author to add those CSS classes if they are missing.
 
 If you use the values "original", "large", "medium", or "thumbnail", no width or height will be added to the image. This will give you more flexibility to resize the image with CSS:
 
@@ -167,8 +167,7 @@ Outputs:
 = What other functions are available for WP User Avatar? =
 * <code>get_wp_user_avatar_src</code>: retrieves just the image URL
 * <code>has_wp_user_avatar</code>: checks if the user has a WP User Avatar image
-
-[See example usage here](http://wordpress.org/extend/plugins/wp-user-avatar/installation/)
+* [See example usage here](http://wordpress.org/extend/plugins/wp-user-avatar/installation/)
 
 == Screenshots ==
 
