@@ -150,7 +150,7 @@ Users need <code>upload_files</code> capability to choose their own WP User Avat
 
 Yes, for registered users. Non-registered comment authors will show their [gravatar.com](http://gravatar.com/) avatars or Default Avatar.
 
-= Will WP User Avatar work with [bbPress](http://wordpress.org/extend/plugins/bbpress/)? =
+= Will WP User Avatar work with bbPress? =
 
 Yes, but only users that have <code>upload_files</code> capability can choose their own WP User Avatar image.
 
@@ -168,7 +168,7 @@ Outputs:
 
 `<img src="{imageURL}" width="96" height="96" class="wp-user-avatar wp-user-avatar-96 alignleft" />`
 
-**Note:** "alignleft", "alignright", and aligncenter" are common WordPress CSS classes, but not every theme supports them. Contact the theme author to add those CSS classes if they are missing.
+**Note:** "alignleft", "alignright", and aligncenter" are common WordPress CSS classes, but not every theme supports them. Contact the theme author to add those CSS classes.
 
 If you use the values "original", "large", "medium", or "thumbnail", no width or height will be added to the image. This will give you more flexibility to resize the image with CSS:
 
@@ -204,8 +204,8 @@ Outputs:
 1. WP User Avatar lets you upload your own Default Avatar.
 2. WP User Avatar adds a field to your edit profile page.
 3. After you've chosen a WP User Avatar image, you will see the option to remove it.
-4. WP User Avatar adds a button to insert the <code>[avatar]</code> shortcode in the Visual Editor.
-5. Options for the <code>[avatar]</code> shortcode.
+4. WP User Avatar adds a button to insert the [avatar] shortcode in the Visual Editor.
+5. Options for the [avatar] shortcode.
 
 == Changelog ==
 
