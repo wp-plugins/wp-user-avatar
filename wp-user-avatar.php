@@ -153,7 +153,6 @@ if(!class_exists('wp_user_avatar')){
         wp_enqueue_script('thickbox');
         wp_enqueue_style('thickbox');
       } else {
-        wp_enqueue_script('jquery-1.8.3', 'https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js');
         wp_enqueue_media();
       }
       wp_enqueue_script('wp-user-avatar', WP_USER_AVATAR_URLPATH.'js/wp-user-avatar.js');
