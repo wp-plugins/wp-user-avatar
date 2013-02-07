@@ -208,7 +208,7 @@ Outputs:
 == Changelog ==
 
 = 1.2.3 =
-* Bug Fix: Show default avatar on when user removes custom avatar
+* Bug Fix: Show default avatar when user removes custom avatar
 * Bug Fix: Default Avatar save setting
 
 = 1.2.2 =
