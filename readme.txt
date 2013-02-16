@@ -5,7 +5,7 @@ Donate link: http://siboliban.org/donate
 Tags: author image, author photo, author avatar, avatar, bbPress, profile avatar, profile image, user avatar, user image, user photo
 Requires at least: 3.1
 Tested up to: 3.5.1
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -207,7 +207,7 @@ Outputs:
 
 == Changelog ==
 
-= 1.2.3 =
+= 1.2.4 =
 * Bug Fix: Show default avatar when user removes custom avatar
 * Bug Fix: Default Avatar save setting
 
