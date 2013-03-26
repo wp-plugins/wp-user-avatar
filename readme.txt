@@ -249,7 +249,7 @@ Outputs:
 * Bug Fix: Change get_usermeta to get_user_meta
 * Bug Fix: Non-object warning when retrieving user ID
 
-= 1.1.2.5 =
+= 1.1.3 =
 * Bug Fix: Comment author with no e-mail address
 
 = 1.1.2 =
