@@ -5,7 +5,7 @@ Donate link: http://siboliban.org/donate
 Tags: author image, author photo, author avatar, avatar, bbPress, profile avatar, profile image, user avatar, user image, user photo
 Requires at least: 3.1
 Tested up to: 3.5.1
-Stable tag: 1.3
+Stable tag: 1.2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ WP User Avatar also lets you:
 * Show the user's [gravatar.com](http://gravatar.com/) avatar or Default Avatar if the user doesn't have a WP User Avatar image.
 * Use the <code>[avatar]</code> shortcode in your posts. The shortcode will work with any theme, whether it has avatar support or not.
 
-This plugin uses the Media uploader introduced in WordPress 3.5, but is also backwards-compatible to WordPress 3.1. It is also compatible with WordPress Multisite.
+This plugin uses the Media uploader introduced in WordPress 3.5, but is also backwards-compatible to WordPress 3.1.
 
 == Installation ==
 
@@ -152,10 +152,6 @@ Yes, for registered users. Non-registered comment authors will show their [grava
 
 Yes, but only users that have <code>upload_files</code> capability can choose their own WP User Avatar image.
 
-= Will WP User Avatar work with WordPress Multisite? =
-
-Yes, however, each site has its own avatar settings. If you set a WP User Avatar image on one site, you have to set it again for different sites in your network.
-
 = How can I see which users have an avatar? =
 
 For Administrators, WP User Avatar adds a column with avatar thumbnails to your Users list table. If "Show Avatars" is enabled in your Discussion settings, you will see avatars to the left of each username instead of in a new column.
@@ -210,11 +206,6 @@ Outputs:
 5. Options for the [avatar] shortcode.
 
 == Changelog ==
-
-= 1.3 =
-* Add: Multisite support
-* Bug Fix: Warnings if no user found
-* Update: Enable action_show_user_profile for any class using show_user_profile hook
 
 = 1.2.6 =
 * Bug Fix: options-discussion.php page doesn't show default avatars
@@ -288,9 +279,6 @@ Outputs:
 * Initial release
 
 == Upgrade Notice ==
-
-= 1.3 =
-* New Feature: Multisite support
 
 = 1.2.2 =
 * New Features: Link options for shortcode, bbPress integration
