@@ -66,8 +66,10 @@ function wp_user_avatar_user_meta(){
     $users = get_users();
     foreach($users as $user){
       $wp_user_avatar = get_user_meta($user->ID, 'wp_user_avatar', true);
-      update_user_meta($user->ID, $wpdb->get_blog_prefix($blog_id).'user_avatar', $wp_user_avatar);
-      delete_user_meta($user->ID, 'wp_user_avatar');
+      if(!empty($wp_user_avatar)){
+        update_user_meta($user->ID, $wpdb->get_blog_prefix($blog_id).'user_avatar', $wp_user_avatar);
+        delete_user_meta($user->ID, 'wp_user_avatar');
+      }
     }
   }
 }
