@@ -111,6 +111,7 @@ if(!class_exists('wp_user_avatar')){
         add_action('edit_user_profile_update', array($this,'action_process_option_update'));
         add_action('discussion_update', array($this,'action_process_option_update'));
         add_action('admin_enqueue_scripts', array($this, 'media_upload_scripts'));
+        add_action('wp_enqueue_scripts', array($this, 'media_upload_scripts'));
       }
       // Only add attachment field for WP 3.4 and older
       if(!function_exists('wp_enqueue_media')){
@@ -120,10 +121,6 @@ if(!class_exists('wp_user_avatar')){
       if(get_option('show_avatars') != '1'){
         add_filter('manage_users_columns', array($this, 'add_wp_user_avatar_column'), 10, 1);
         add_filter('manage_users_custom_column', array($this, 'show_wp_user_avatar_column'), 10, 3);
-      }
-      // Load scripts in front pages for logged in users
-      if(is_user_logged_in() && current_user_can('upload_files')){
-        add_action('wp_enqueue_scripts', array($this, 'media_upload_scripts'));
       }
     }
 
