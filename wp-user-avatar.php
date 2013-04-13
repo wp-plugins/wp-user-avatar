@@ -208,8 +208,6 @@ if(!class_exists('wp_user_avatar')){
       if(function_exists('wp_enqueue_media')){
         wp_enqueue_media();
       } else {
-        wp_deregister_script('jquery');
-        wp_register_script('jquery', 'http'.$ssl.'://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', false, '1.7.1');
         wp_enqueue_script('media-upload');
         wp_enqueue_script('thickbox');
         wp_enqueue_style('thickbox');
