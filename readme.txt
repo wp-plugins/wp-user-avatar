@@ -3,7 +3,7 @@
 Contributors: bangbay
 Donate link: http://siboliban.org/donate
 Tags: author image, author photo, author avatar, avatar, profile avatar, profile image, profile photo, user avatar, user image, user photo
-Requires at least: 3.0
+Requires at least: 3.3
 Tested up to: 3.5
 Stable tag: 1.1.6
 License: GPLv2 or later
@@ -21,7 +21,7 @@ You can also use the shortcode <code>[avatar]</code> in your posts. The shortcod
 
 Read more about the [get_avatar in WordPress's Function Reference](http://codex.wordpress.org/Function_Reference/get_avatar).
 
-This plugin uses the new Media Uploader introduced in WordPress 3.5, but is also backwards-compatible to WordPress 3.0.
+This plugin uses the new Media Uploader introduced in WordPress 3.5, but is also backwards-compatible to WordPress 3.3.
 
 == Installation ==
 
