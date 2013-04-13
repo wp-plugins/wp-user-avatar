@@ -267,7 +267,7 @@ Outputs:
 = 1.2.1 =
 * Add: TinyMCE button
 * Update: Clean up redundant code
-* Update: Compatibility only back to WordPress 3.1
+* Update: Compatibility only back to WordPress 3.3
 
 = 1.2 =
 * Add: Default Avatar setting
