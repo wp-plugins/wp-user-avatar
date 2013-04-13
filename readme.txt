@@ -3,7 +3,7 @@
 Contributors: bangbay
 Donate link: http://siboliban.org/donate
 Tags: author image, author photo, author avatar, avatar, profile avatar, profile image, profile photo, user avatar, user image, user photo
-Requires at least: 3.0
+Requires at least: 3.3
 Tested up to: 3.5
 Stable tag: 1.1.4
 License: GPLv2 or later
@@ -17,7 +17,7 @@ WordPress currently only allows you to use custom avatars that are uploaded thro
 
 To use WP User Avatar in your theme, manually replace <code>get_avatar()</code> with <code>get_wp_user_avatar()</code> or leave <code>get_avatar()</code> as-is. <code>get_wp_user_avatar()</code> has  functionality not available in <code>get_avatar()</code>. You can also use the shortcode <code>[avatar]</code> in your posts.
 
-This plugin uses the new Media Uploader introduced in WordPress 3.5, but is also backwards-compatible to WordPress 3.0.
+This plugin uses the new Media Uploader introduced in WordPress 3.5, but is also backwards-compatible to WordPress 3.3.
 
 == Installation ==
 
