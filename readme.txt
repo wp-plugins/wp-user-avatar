@@ -5,7 +5,7 @@ Donate link: http://siboliban.org/donate
 Tags: author image, author photo, author avatar, avatar, bbPress, profile avatar, profile image, user avatar, user image, user photo
 Requires at least: 3.3
 Tested up to: 3.5.1
-Stable tag: 1.3.4
+Stable tag: 1.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -226,6 +226,9 @@ Outputs:
 5. Options for the [avatar] shortcode.
 
 == Changelog ==
+
+= 1.3.5 =
+* Bug Fix: Swap TinyMCE file locations
 
 = 1.3.4 =
 * Update: Change support only to WP 3.3+ because of jQuery 1.7.1 support
