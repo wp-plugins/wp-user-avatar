@@ -5,7 +5,7 @@ Donate link: http://siboliban.org/donate
 Tags: author image, author photo, author avatar, avatar, bbPress, profile avatar, profile image, user avatar, user image, user photo
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +20,7 @@ WP User Avatar also lets you:
 * Upload your own Default Avatar in your Discussion settings.
 * Show the user's [gravatar.com](http://gravatar.com/) avatar or Default Avatar if the user doesn't have a WP User Avatar image.
 * Use the <code>[avatar]</code> shortcode in your posts. The shortcode will work with any theme, whether it has avatar support or not.
-* Allow Contributors and Subscribers to upload their own avatars.
+* Allow Contribuors and Subscribers to upload their own avatars.
 
 This plugin uses the Media uploader introduced in WordPress 3.5, but is also backwards-compatible to WordPress 3.4. It is also compatible with WordPress Multisite.
 
@@ -98,7 +98,7 @@ You can use the <code>[avatar]</code> shortcode in your posts. It will detect th
 
 = get_wp_user_avatar_src =
 
-Works just like <code>get_wp_user_avatar</code> but returns just the image src. This is useful if you would like to link a thumbnail-sized avatar to a larger version of the image:
+Works just like <code>get_wp_user_avatar</code> but returns just the image src. This is useful if you would like to link a thumbnail-sized avatar to a larger version of the image. You must specify the user ID:
 
 `<a href="<?php echo get_wp_user_avatar_src($user_id, 'large'); ?>">
   <?php echo get_wp_user_avatar($user_id, 'thumbnail'); ?>
@@ -225,6 +225,9 @@ Outputs:
 6. WP User Avatar admin settings.
 
 == Changelog ==
+
+= 1.4.2 =
+* Bug Fix: Include screen.php for get_current_screen function
 
 = 1.4.1 =
 * Bug Fix: Allow multipart data in form
