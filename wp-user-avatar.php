@@ -6,7 +6,7 @@
 /*
 Plugin Name: WP User Avatar
 Plugin URI: http://wordpress.org/extend/plugins/wp-user-avatar/
-Description: Use any image in your WordPress Media Libary as a custom user avatar.
+Description: Use any image in your WordPress Media Library as a custom user avatar.
 Version: 1.1
 Author: Bangbay Siboliban
 Author URI: http://siboliban.org/
