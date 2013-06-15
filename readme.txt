@@ -9,7 +9,7 @@ Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Use any image in your WordPress Media Libary as a custom user avatar. Add your own Default Avatar.
+Use any image in your WordPress Media Library as a custom user avatar. Add your own Default Avatar.
 
 == Description ==
 
