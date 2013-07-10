@@ -27,8 +27,8 @@ WP User Avatar also lets you:
 == Installation ==
 
 1. Download, install, and activate the WP User Avatar plugin.
-2. On your profile edit page, click "Edit WP User Avatar".
-3. Choose an image, then click "Set WP User Avatar".
+2. On your profile edit page, click "Edit Image".
+3. Choose an image, then click "Select Image".
 4. Click "Update Profile".
 5. Upload your own Default Avatar in your WP User Avatar settings (optional). You can also allow Contributors & Subscribers to upload avatars and disable Gravatar.
 6. Choose a theme that has avatar support. In your theme, manually replace <code>get_avatar</code> with <code>get_wp_user_avatar</code> or leave <code>get_avatar</code> as-is. [Read about the differences here](http://wordpress.org/extend/plugins/wp-user-avatar/faq/).
