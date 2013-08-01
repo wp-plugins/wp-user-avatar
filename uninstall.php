@@ -1,12 +1,12 @@
 <?php
 /**
  * @package WP User Avatar
- * @version 1.4.1
+ * @version 1.5.5
  */
 
 // Remove user metadata and options on plugin delete
 if(!defined('WP_UNINSTALL_PLUGIN')){
-  die('You are not allowed to call this page directly.');
+  die(__('You are not allowed to call this page directly.'));
 }
 
 global $wpdb, $blog_id, $switched;
@@ -22,22 +22,30 @@ if(is_multisite()){
   foreach($blogs as $blog){
     switch_to_blog($blog->blog_id);
     delete_option('avatar_default_wp_user_avatar');
-    delete_option('wp_user_avatar_tinymce');
     delete_option('wp_user_avatar_allow_upload');
+    delete_option('wp_user_avatar_disable_gravatar');
+    delete_option('wp_user_avatar_edit_avatar');
+    delete_option('wp_user_avatar_load_scripts');
+    delete_option('wp_user_avatar_tinymce');
+    delete_option('wp_user_avatar_upload_size_limit');
     delete_option('wp_user_avatar_default_avatar_updated');
-    delete_option('wp_user_avatar_users_updated');
     delete_option('wp_user_avatar_media_updated');
+    delete_option('wp_user_avatar_users_updated');
   }
 } else {
   foreach($users as $user){
     delete_user_meta($user->ID, $wpdb->get_blog_prefix($blog_id).'user_avatar');
   }
   delete_option('avatar_default_wp_user_avatar');
-  delete_option('wp_user_avatar_tinymce');
   delete_option('wp_user_avatar_allow_upload');
+  delete_option('wp_user_avatar_disable_gravatar');
+  delete_option('wp_user_avatar_edit_avatar');
+  delete_option('wp_user_avatar_load_scripts');
+  delete_option('wp_user_avatar_tinymce');
+  delete_option('wp_user_avatar_upload_size_limit');
   delete_option('wp_user_avatar_default_avatar_updated');
-  delete_option('wp_user_avatar_users_updated');
   delete_option('wp_user_avatar_media_updated');
+  delete_option('wp_user_avatar_users_updated');
 }
 // Delete post meta
 delete_post_meta_by_key('_wp_attachment_wp_user_avatar');
