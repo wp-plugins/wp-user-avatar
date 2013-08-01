@@ -528,7 +528,8 @@ if(!class_exists('wp_user_avatar')){
       $user_id = !empty($user) ? $user->ID : "";
     }
     $wpua = get_user_meta($user_id, $wpdb->get_blog_prefix($blog_id).'user_avatar', true);
-    $has_wpua = !empty($wpua) ? true : false;
+    $wpua_src = wp_get_attachment_image_src($wpua);
+    $has_wpua = !empty($wpua_src) ? true : false;
     return $has_wpua;
   }
 
