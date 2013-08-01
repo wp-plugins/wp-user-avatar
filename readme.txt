@@ -231,7 +231,6 @@ Outputs:
 == Changelog ==
 
 = 1.5.3 =
-* Add: Swedish translation
 * Remove: Option to disable scripts in front pages
 * Update: Load media upload scripts only on profile and avatar admin pages
 * Update: Translations
