@@ -371,9 +371,6 @@ Outputs:
 
 == Upgrade Notice ==
 
-= 1.5.5 =
-* Notice: WP User Avatar 1.5.3 only supports WordPress 3.5 and above. If you are using an older version of WordPress, please upgrade your version of WordPress first.
-
 = 1.5.3 =
 * Notice: WP User Avatar 1.5.3 only supports WordPress 3.5 and above. If you are using an older version of WordPress, please upgrade your version of WordPress first.
 
