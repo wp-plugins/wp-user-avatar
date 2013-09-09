@@ -2,7 +2,7 @@
 
 Contributors: bangbay
 Donate link: http://siboliban.org/donate
-Tags: author image, author photo, author avatar, avatar, bbPress, profile avatar, profile image, user avatar, user image, user photo
+Tags: author avatar, author image, author photo, avatar, avatars, bbPress, user avatar, user image, user photo
 Requires at least: 3.5
 Tested up to: 3.6
 Stable tag: 1.5.8
