@@ -316,7 +316,7 @@ This would output:
 
 = 1.6.4 =
 * Bug Fix: Correct avatar not showing in widget
-* Update: Check compability to 3.7
+* Update: Check compatibility to 3.7
 
 = 1.6.3 =
 * Bug Fix: Checkbox value for "Crop avatars to exact dimensions"
