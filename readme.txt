@@ -442,7 +442,7 @@ This would output:
 = 1.1.7 =
 * Bug Fix: Change update_usermeta to update_user_meta
 
-= 1.1.6.3 =
+= 1.1.6 =
 * Bug Fix: Image not showing in user profile edit
 
 = 1.1.5a =
