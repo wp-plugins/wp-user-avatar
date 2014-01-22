@@ -275,7 +275,7 @@ Then, to add WP User Avatar to that hook and remove it from the other hooks outs
 }
 // Loads only outside of administration panel
 if(!is_admin()){
-  add_action('plugins_loaded','my_avatar_filter');`
+  add_action('plugins_loaded','my_avatar_filter');
 }`
 
 = HTML Wrapper =
