@@ -3,7 +3,7 @@
  * Defines all of administrative, activation, and deactivation settings.
  *
  * @package WP User Avatar
- * @version 1.8.1
+ * @version 1.8.2
  */
 
 class WP_User_Avatar_Admin {
@@ -88,7 +88,7 @@ class WP_User_Avatar_Admin {
     register_setting('wpua-settings-group', 'wp_user_avatar_tinymce', 'intval');
     register_setting('wpua-settings-group', 'wp_user_avatar_allow_upload', 'intval');
     register_setting('wpua-settings-group', 'wp_user_avatar_disable_gravatar', 'intval');
-    register_setting('wpua-settings-group', 'wp_user_avatar_upload_avatar', 'intval');
+    register_setting('wpua-settings-group', 'wp_user_avatar_edit_avatar', 'intval');
     register_setting('wpua-settings-group', 'wp_user_avatar_resize_crop', 'intval');
     register_setting('wpua-settings-group', 'wp_user_avatar_resize_h', 'intval');
     register_setting('wpua-settings-group', 'wp_user_avatar_resize_upload', 'intval');
