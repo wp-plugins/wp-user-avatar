@@ -476,7 +476,7 @@ This would output:
 * Bug Fix: Swap TinyMCE file locations
 
 = 1.3.4 =
-* Update: Change support only to WP 3.3+ because of jQuery 1.7.2.1 support
+* Update: Change support only to WP 3.3+ because of jQuery 1.7.1 support
 
 = 1.3.3 =
 * Update: Shortcode checks for user ID, login, slug, or e-mail address
