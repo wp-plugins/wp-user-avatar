@@ -146,7 +146,7 @@ class WP_User_Avatar_Shortcode {
       <?php wp_nonce_field('update-user_'.$current_user->ID); ?>
       <?php submit_button(__('Save')); ?>
     </form>
-  <?
+  <?php
     return ob_get_clean();
   }
 }
