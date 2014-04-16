@@ -3,7 +3,7 @@
  * Defines all profile and upload settings.
  *
  * @package WP User Avatar
- * @version 1.9.2
+ * @version 1.9.3
  */
 
 class WP_User_Avatar {
