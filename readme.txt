@@ -25,11 +25,11 @@ WordPress currently only allows you to use custom avatars that are uploaded thro
 * Allow Contributors and Subscribers to upload their own avatars.
 * Limit upload file size and image dimensions for Contributors and Subscribers.
 
-Visit WP User Avatar(http://wpuseravatar.com/) for more information and documentation.
+Visit [WP User Avatar](http://wpuseravatar.com/) for more information and documentation.
 
 == Installation ==
 
-Visit WP User Avatar(http://wpuseravatar.com/) for more information and documentation.
+Visit [WP User Avatar](http://wpuseravatar.com/) for more information and documentation.
 
 1. Download, install, and activate the WP User Avatar plugin.
 2. On your profile edit page, click "Edit Image".
@@ -133,7 +133,7 @@ Returns true if the user has a WP User Avatar image. You must specify the user I
 
 == Frequently Asked Questions ==
 
-Visit WP User Avatar(http://wpuseravatar.com/) for more information and documentation.
+Visit [WP User Avatar](http://wpuseravatar.com/) for more information and documentation.
 
 = How do I use WP User Avatar? =
 
@@ -267,7 +267,7 @@ I've spent countless hours developing this plugin for free. If you're able to gi
 
 == Advanced Settings ==
 
-Visit WP User Avatar(http://wpuseravatar.com/) for more information and documentation.
+Visit [WP User Avatar](http://wpuseravatar.com/) for more information and documentation.
 
 = Add WP User Avatar to your own profile edit page =
 
