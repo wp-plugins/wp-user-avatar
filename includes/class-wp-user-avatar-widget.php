@@ -42,7 +42,7 @@ class WP_User_Avatar_Profile_Widget extends WP_Widget {
       // Remove profile title
       add_filter('wpua_profile_title', '__return_null');
       // Get [avatar_upload] shortcode
-      echo $wpua_shortcode->wpua_edit_shortcode();
+      echo $wpua_shortcode->wpua_edit_shortcode("");
       remove_filter('wpua_profile_title', '__return_null');
     }
   }
