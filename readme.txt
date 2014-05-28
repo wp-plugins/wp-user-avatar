@@ -231,8 +231,8 @@ Outputs:
 == Changelog ==
 
 = 1.5.5 =
-* Bug Fix: Hide "Edit Image" button if Subscriber can't edit avatar
-* Bug Fix: Remove edit_posts capability if Subscriber can't edit avatar
+* Bug Fix: Hide "Edit Image" button if Contributors & Subscribers can't edit avatar
+* Bug Fix: Remove edit_posts capability if Subscribers can't edit avatar
 
 = 1.5.4 =
 * Add: Option to enable avatar editing privilege for Subscribers
