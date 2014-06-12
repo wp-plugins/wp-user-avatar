@@ -1,7 +1,6 @@
 === WP User Avatar ===
 
-Contributors: bangbay
-Donate link: http://siboliban.org/donate
+Contributors: flippercode
 Tags: author image, author photo, author avatar, avatar, bbPress, profile avatar, profile image, user avatar, user image, user photo, widget
 Requires at least: 3.6
 Tested up to: 3.9
