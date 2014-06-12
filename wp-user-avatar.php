@@ -8,8 +8,8 @@
 Plugin Name: WP User Avatar
 Plugin URI: http://wordpress.org/plugins/wp-user-avatar/
 Description: Use any image from your WordPress Media Library as a custom user avatar. Add your own Default Avatar.
-Author: Bangbay Siboliban
-Author URI: http://siboliban.org/
+Author: flippercode
+Author URI: http://www.flippercode.com/
 Version: 1.9.13
 Text Domain: wp-user-avatar
 Domain Path: /lang/
