@@ -16,7 +16,7 @@ WordPress currently only allows you to use custom avatars that are uploaded thro
 
 == Maintained and Supported by Flipper Code ==
 
-[Flipper Code](http://www.flippercode.com/) has been providing WordPress Services since 2008. Flipper Code will be taking over ongoing development and maintenance of this plugin.
+Flipper Code has been providing WordPress Services since 2008. Flipper Code will be taking over ongoing development and maintenance of this plugin.
 
 
 **WP User Avatar** also lets you:
