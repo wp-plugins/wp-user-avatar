@@ -186,7 +186,7 @@ function wpua_donation_message() {
  */
 function wpua_do_donation_message() { ?>
   <div class="updated">
-    <p><?php _e('Do you like WP User Avatar?', 'wp-user-avatar'); ?> <a href="http://siboliban.org/donate" target="_blank"><?php _e('Make a donation.', 'wp-user-avatar'); ?></a></p>
+    <p><?php _e('Do you have any question?', 'wp-user-avatar'); ?> <a href="mailto:hello@flippercode.com" target="_blank"><?php _e('Mail Us', 'wp-user-avatar'); ?></a></p>
   </div>
  <?php 
 }
