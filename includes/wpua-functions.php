@@ -185,8 +185,8 @@ function wpua_donation_message() {
  * @since 1.6.6
  */
 function wpua_do_donation_message() { ?>
-  <div class="updated">
-    <p><?php _e('Do you have any question?', 'wp-user-avatar'); ?> <a href="mailto:hello@flippercode.com" target="_blank"><?php _e('Mail Us', 'wp-user-avatar'); ?></a></p>
+   <div class="updated">
+    <p><?php _e('Do you like WP User Avatar?', 'wp-user-avatar'); ?> <a href="http://wordpress.org/plugins/wp-google-map-plugin/" target="_blank"><?php _e('Try our Google Maps Plugin.', 'wp-user-avatar'); ?></a></p> 
   </div>
  <?php 
 }
