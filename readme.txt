@@ -14,7 +14,7 @@ Use any image from your WordPress Media Library as a custom user avatar. Add you
 
 WordPress currently only allows you to use custom avatars that are uploaded through [Gravatar](http://gravatar.com/). **WP User Avatar** enables you to use any photo uploaded into your Media Library as an avatar. This means you use the same uploader and library as your posts. No extra folders or image editing functions are necessary.
 
-** Maintained and Supported by Flipper Code **
+**Maintained and Supported by Flipper Code**
 
 Flipper Code has been providing WordPress Services since 2008. Flipper Code expertise in [custom plugins development](http://codecanyon.net/user/flippercode/portfolio) and [wordpress websites development](http://www.flippercode.com/our-portfolio/).
 
