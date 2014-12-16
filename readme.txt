@@ -3,8 +3,8 @@
 Contributors: flippercode
 Tags: author image, author photo, author avatar, avatar, bbPress, profile avatar, profile image, user avatar, user image, user photo, widget
 Requires at least: 3.6
-Tested up to: 3.9
-Stable tag: 1.9.13
+Tested up to: 4.0.1
+Stable tag: 1.9.14
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,10 +13,6 @@ Use any image from your WordPress Media Library as a custom user avatar. Add you
 == Description ==
 
 WordPress currently only allows you to use custom avatars that are uploaded through [Gravatar](http://gravatar.com/). **WP User Avatar** enables you to use any photo uploaded into your Media Library as an avatar. This means you use the same uploader and library as your posts. No extra folders or image editing functions are necessary.
-
-= Maintained and Supported by Flipper Code =
-
-[Flipper Code](http://www.flippercode.com/) has been providing WordPress Services since 2008. Flipper Code will be taking over ongoing development and maintenance of this plugin.
 
 
 **WP User Avatar** also lets you:
@@ -384,6 +380,13 @@ This would output:
 4. After you've chosen a WP User Avatar image, you will see the option to remove it.
 
 == Changelog ==
+
+= 1.9.14 =
+* Bug Fix: Speed Issues due to check many times if gravatar exist.
+* Bug Fix: Default gravatar issue for mustache and gravatar logo at front end and at buddypress pages
+* Bug Fix: Avatar while adding for existing user.
+* Bug Fix: UI issue when Gravatar option is enable/disable.
+
 
 = 1.9.13 =
 * Bug Fix: Load _load_wp_includes mostly only on front pages
