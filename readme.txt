@@ -25,7 +25,6 @@ WordPress currently only allows you to use custom avatars that are uploaded thro
 * Allow Contributors and Subscribers to upload their own avatars.
 * Limit upload file size and image dimensions for Contributors and Subscribers.
 
-Visit [WP User Avatar](http://wpuseravatar.com/) for more information and documentation.
 
 == Installation ==
 
