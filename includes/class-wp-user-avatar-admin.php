@@ -65,7 +65,9 @@ class WP_User_Avatar_Admin {
     add_option('wp_user_avatar_tinymce', '1');
     add_option('wp_user_avatar_upload_size_limit', '0');
 	//Schedules the hook to run the Cron to check whether Gravatar-hosted image exists or not of users.
-	wp_schedule_event( time(), 'daily', 'wpua_has_gravatar_cron_hook' );
+	if(!wp_next_scheduled( 'wpua_has_gravatar_cron_hook' )){
+		wp_schedule_event( time(), 'daily', 'wpua_has_gravatar_cron_hook' );
+	}
   }
 
   /**
