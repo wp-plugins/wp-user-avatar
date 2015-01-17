@@ -25,6 +25,10 @@ WordPress currently only allows you to use custom avatars that are uploaded thro
 * Allow Contributors and Subscribers to upload their own avatars.
 * Limit upload file size and image dimensions for Contributors and Subscribers.
 
+**Introducing Support Desk**
+
+We're at [FlipperCode](http://www.flippercode.com/), committed to excellent support to make every download worth for the user. Happily announcing [Support Desk](http://www.flippercode.com/forums/) for our valuable users to engaged with multiple support desk person for fast turnout.
+
 
 == Installation ==
 
