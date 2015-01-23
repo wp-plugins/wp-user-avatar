@@ -305,7 +305,6 @@ class WP_User_Avatar_Admin {
   public function wpua_row_meta($links, $file) {
     if(basename(dirname($file)) == 'wp-user-avatar') {
       $links[] = '<a href="http://wordpress.org/support/plugin/wp-user-avatar" target="_blank">'.__('Support Forums').'</a>';
-      $links[] = '<a href="http://siboliban.org/donate" target="_blank">'.__('Donate', 'wp-user-avatar').'</a>';
     }
     return $links;
   }
