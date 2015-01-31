@@ -3,8 +3,8 @@
 Contributors: flippercode
 Tags: author image, author photo, author avatar, avatar, bbPress, profile avatar, profile image, user avatar, user image, user photo, widget
 Requires at least: 3.6
-Tested up to: 4.0.1
-Stable tag: 1.9.16
+Tested up to: 4.1
+Stable tag: 1.9.18
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -383,6 +383,13 @@ This would output:
 4. After you've chosen a WP User Avatar image, you will see the option to remove it.
 
 == Changelog ==
+
+= 1.9.18 =
+* Bug Fix: Removed cron job dependency for excellent performance.
+* Bug Fix: Resolved gravatar was not showing on some special cases.
+* Bug Fix: Resolved speed problem in case of large number of users for multisite, bbpress and buddy press.
+* Bug Fix: Resolved display custom avatar problem when default and customer avatar is same choosen.
+
 
 = 1.9.17 =
 * Bug Fix: Removed the looping through all users on admin_init action.
