@@ -44,7 +44,7 @@ global $avatar_default,
 // Store if hash has gravatar
 $wpua_hash_gravatar = get_option('wpua_hash_gravatar');
 if( $wpua_hash_gravatar != false)
-$wpua_hash_gravatar = unserialize(get_option('wpua_hash_gravatar'));
+$wpua_hash_gravatar = @unserialize(get_option('wpua_hash_gravatar'));
 
 // Default avatar name
 $avatar_default = get_option('avatar_default');
